@@ -51990,7 +51990,7 @@
 46	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
 47	domicílio	domicílio	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	_
 48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	autora	autor	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	_
+49	autora	autor	NOUN	_	Gender=Fem|Number=Sing	46	nsubj	_	_
 50	e	e	CCONJ	_	_	53	cc	_	_
 51	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
 52	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_

@@ -5243,7 +5243,7 @@
 27	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	25	nmod	_	_
 28	a	a	ADP	_	_	30	case	_	_
 29	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	30	det	_	_
-30	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+30	cargo	cargo	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 31	público	público	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
 32	por	por	ADP	_	_	33	case	_	_
 33	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
@@ -8268,7 +8268,7 @@
 20	]	]	PUNCT	_	_	19	punct	_	_
 21	tudo	tudo	PRON	_	PronType=Ind	24	nsubj	_	_
 22	de	de	ADP	_	_	23	case	_	_
-23	fato	fato	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+23	fato	fato	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	desenhando	desenhar	VERB	_	VerbForm=Ger	11	parataxis	_	_
 25	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
 26	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_

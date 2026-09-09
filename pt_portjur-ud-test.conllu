@@ -5818,7 +5818,7 @@
 47	a	a	ADP	_	_	50	case	_	_
 48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 49	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det	_	_
-50	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	46	obl	_	_
+50	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 51-52	mostrou-se	_	_	_	_	_	_	_	_
 51	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 52	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	51	expl	_	_
@@ -9918,7 +9918,7 @@
 126-127	do	_	_	_	_	_	_	_	_
 126	de	de	ADP	_	_	128	case	_	_
 127	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	128	det	_	_
-128	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	125	obl	_	_
+128	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	125	nmod	_	_
 129	de	de	ADP	_	_	130	case	_	_
 130	assentamento	assentamento	NOUN	_	Gender=Masc|Number=Sing	128	nmod	_	_
 131	ou	ou	CCONJ	_	_	134	cc	_	_
@@ -13607,7 +13607,7 @@
 52-53	à	_	_	_	_	_	_	_	_
 52	a	a	ADP	_	_	54	case	_	_
 53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
-54	Apelação	Apelação	PROPN	_	_	51	obl	_	_
+54	Apelação	Apelação	PROPN	_	_	51	nmod	_	_
 55-56	do	_	_	_	_	_	_	_	_
 55	de	de	ADP	_	_	57	case	_	_
 56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
@@ -19601,7 +19601,7 @@
 83	fatos	fato	NOUN	_	Gender=Masc|Number=Plur	79	nmod	_	_
 84	para	para	ADP	_	_	86	case	_	_
 85	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
-86	fim	fim	NOUN	_	Gender=Masc|Number=Sing	76	obl	_	_
+86	fim	fim	NOUN	_	Gender=Masc|Number=Sing	76	nmod	_	_
 87	de	de	ADP	_	_	88	mark	_	_
 88	afastar	afastar	VERB	_	VerbForm=Inf	86	acl	_	_
 89	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	90	det	_	_

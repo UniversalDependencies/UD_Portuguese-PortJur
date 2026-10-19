@@ -6487,7 +6487,7 @@
 11-12	ao	_	_	_	_	_	_	_	_
 11	a	a	ADP	_	_	13	case	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 14	especial	especial	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16-17	ao	_	_	_	_	_	_	_	_
@@ -11183,7 +11183,7 @@
 35-36	ao	_	_	_	_	_	_	_	_
 35	a	a	ADP	_	_	37	case	_	_
 36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+37	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
 38	especial	especial	ADJ	_	Number=Sing	37	amod	_	_
 39	e	e	CCONJ	_	_	40	cc	_	_
 40-41	mantendo-se	_	_	_	_	_	_	_	_
@@ -18578,10 +18578,10 @@
 40	nº	número	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	39	nmod	_	_
 41	9.099/95	9.099/95	NUM	_	NumType=Card	40	nmod	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
-43	art.	artigo	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	39	dep	_	_
+43	art.	artigo	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	39	nmod:spec	_	_
 44	66	66	NUM	_	NumType=Card	43	nummod	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
-46	parágrafo	parágrafo	NOUN	_	Gender=Masc|Number=Sing	43	dep	_	_
+46	parágrafo	parágrafo	NOUN	_	Gender=Masc|Number=Sing	43	nmod:spec	_	_
 47	único	único	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	3	punct	_	_
@@ -27493,7 +27493,7 @@
 # sent_id = JURSTF_DOC018_SENT0041
 # text = "Impor silêncio a uma discussão é sempre arrogar-se infalibilidade".
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
-2	Impor	impor	VERB	_	VerbForm=Inf	9	csubj	_	_
+2	Impor	impor	VERB	_	VerbForm=Inf	9	csubj:outer	_	_
 3	silêncio	silêncio	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 4	a	a	ADP	_	_	6	case	_	_
 5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -34496,7 +34496,7 @@
 25	fim	fim	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 26	de	de	ADP	_	ExtPos=SCONJ	28	mark	_	_
 27	que	que	SCONJ	_	_	26	fixed	_	_
-28	deixasse	deixar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	nmod	_	_
+28	deixasse	deixar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl	_	_
 29	paulatinamente	paulatinamente	ADV	_	_	28	advmod	_	_
 30	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	_
 31	condição	condição	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
@@ -38306,7 +38306,7 @@
 45	indiferente	indiferente	ADJ	_	Number=Sing	26	conj	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	47	punct	_	_
 47-48	assumiu-os	_	_	_	_	_	_	_	SpaceAfter=No
-47	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	nsubj	_	_
+47	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	conj	_	_
 48	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	47	obj	_	_
 49	.	.	PUNCT	_	_	21	punct	_	_
 
@@ -46911,10 +46911,10 @@
 1-2	Apropriar-se	_	_	_	_	_	_	_	_
 1	Apropriar	apropriar	VERB	_	VerbForm=Inf	0	root	_	_
 2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	_	_
-3	de	de	ADP	_	_	1	dep	_	_
+3	de	de	ADP	_	_	6	case	_	_
 4	ou	ou	CCONJ	_	_	5	cc	_	_
 5	desviar	desviar	VERB	_	VerbForm=Inf	1	conj	_	_
-6	bens	bem	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+6	bens	bem	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	proventos	provento	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -70705,7 +70705,7 @@
 94	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = JURSTF_DOC018_SENT0018
-# text = O conteúdo fraudulento somente foi excluído da página do Querelado Eder Mauro no Facebook por determinação da Justiça
+# text = O conteúdo fraudulento somente foi excluído da página do Querelado Eder Mauro no Facebook por determinação da Justiça .
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	conteúdo	conteúdo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 3	fraudulento	fraudulento	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -70732,6 +70732,7 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Justiça	Justiça	PROPN	_	_	19	nmod	_	_
+23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = JUREPI_DOC001_SENT0114
 # text = Apresentada a defesa, o juiz procederá na conformidade do art. 69 ou, se necessário, designará audiência de instrução e julgamento, deliberando sobre a necessidade de produção de outras provas.
@@ -71337,7 +71338,7 @@
 29	art.	artigo	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	26	nmod	_	_
 30	18	18	NUM	_	NumType=Card	29	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
-32	inciso	inciso	NOUN	_	Gender=Masc|Number=Sing	29	dep	_	_
+32	inciso	inciso	NOUN	_	Gender=Masc|Number=Sing	29	nmod:spec	_	_
 33	I	I	NUM	_	NumType=Card	32	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
 35-36	do	_	_	_	_	_	_	_	_
@@ -77068,7 +77069,7 @@
 24	adoção	adoção	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 25	internacional	internacional	ADJ	_	Number=Sing	24	amod	_	_
 26	a	a	ADP	_	_	27	case	_	_
-27	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+27	organismos	organismo	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 28	nacionais	nacional	ADJ	_	Number=Plur	27	amod	_	_
 29	ou	ou	CCONJ	_	_	31	cc	_	_
 30	a	a	ADP	_	_	31	case	_	_
@@ -80303,7 +80304,7 @@
 98	.	.	PUNCT	_	_	38	punct	_	_
 
 # sent_id = JURSTJ_DOC007_SENT0032
-# text = Tese jurídica firmada: "As obrigações ambientais possuem natureza propter rem, sendo possível exigí-las, à escolha do credor, do proprietário ou possuidor atual, de qualquer dos anteriores, ou de ambos, ficando isento de responsabilidade o alienante cujo direito real tenha cessado antes da causação do dano, desde que para ele não tenha concorrido, direta ou indiretamente."
+# text = Tese jurídica firmada: "As obrigações ambientais possuem natureza propter rem, sendo possível exigí-las, à escolha do credor, do proprietário ou possuidor atual, de qualquer dos anteriores, ou de ambos, ficando isento de responsabilidade o alienante cujo direito real tenha cessado antes da causação do dano, desde que para ele não tenha concorrido, direta ou indiretamente".
 1	Tese	tese	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	jurídica	jurídico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	firmada	firmar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No
@@ -80383,8 +80384,8 @@
 70	direta	diretamente	ADV	_	Abbr=Yes	68	advmod	_	_
 71	ou	ou	CCONJ	_	_	72	cc	_	_
 72	indiretamente	indiretamente	ADV	_	_	70	conj	_	SpaceAfter=No
-73	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
-74	"	"	PUNCT	_	_	9	punct	_	_
+73	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+74	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = JURSTF_DOC012_SENT0008
 # text = Na ação são formulados pedidos específicos em relação aos povos indígenas em isolamento ou de contato recente, bem como pedidos que se destinam aos povos indígenas em geral.

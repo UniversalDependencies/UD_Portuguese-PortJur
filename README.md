@@ -20,13 +20,13 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 
 # Changelog
 
-* 2025-11-15 v2.17 (Porttinari v2.1)
+* 2026-11-15 v2.19 (Porttinari v3.0-beta)
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.17
+Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no

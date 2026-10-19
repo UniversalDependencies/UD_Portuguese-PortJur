@@ -5818,7 +5818,7 @@
 47	a	a	ADP	_	_	50	case	_	_
 48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 49	sua	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det	_	_
-50	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+50	condenação	condenação	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
 51-52	mostrou-se	_	_	_	_	_	_	_	_
 51	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 52	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	51	expl	_	_
@@ -6413,13 +6413,13 @@
 25	Código	Código	PROPN	_	_	11	parataxis	_	_
 26	Civil	Civil	PROPN	_	_	25	flat:name	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	art.	artigo	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	25	conj	_	_
+28	art.	artigo	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	25	nmod:spec	_	_
 29	206	206	NUM	_	NumType=Card	28	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	§	§	SYM	_	_	28	dep	_	_
+31	§	§	SYM	_	_	28	nmod:spec	_	_
 32	5º	5º	NUM	_	NumType=Ord	31	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
-34	I	I	NUM	_	NumType=Card	28	nmod:spec	_	SpaceAfter=No
+34	I	I	NUM	_	NumType=Card	31	nmod:spec	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -13607,7 +13607,7 @@
 52-53	à	_	_	_	_	_	_	_	_
 52	a	a	ADP	_	_	54	case	_	_
 53	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
-54	Apelação	Apelação	PROPN	_	_	51	nmod	_	_
+54	Apelação	Apelação	PROPN	_	_	50	obl	_	_
 55-56	do	_	_	_	_	_	_	_	_
 55	de	de	ADP	_	_	57	case	_	_
 56	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
@@ -13883,11 +13883,11 @@
 22	e	e	CCONJ	_	_	25	cc	_	_
 23	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	devidamente	devidamente	ADV	_	_	25	advmod	_	_
-25	credenciados	credenciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	conj	_	_
+25	credenciados	credenciado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	13	conj	_	_
 26-27	pela	_	_	_	_	_	_	_	_
 26	por	por	ADP	_	_	28	case	_	_
 27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	Autoridade	Autoridade	PROPN	_	_	25	obl:agent	_	_
+28	Autoridade	Autoridade	PROPN	_	_	25	obl	_	_
 29	Central	Central	PROPN	_	_	28	flat:name	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_

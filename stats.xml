@@ -5,8 +5,8 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2005</sentences><tokens>91858</tokens><words>101297</words><fused>9436</fused></total>
-    <train><sentences>1403</sentences><tokens>64880</tokens><words>71517</words><fused>6634</fused></train>
+    <total><sentences>2005</sentences><tokens>91859</tokens><words>101298</words><fused>9436</fused></total>
+    <train><sentences>1403</sentences><tokens>64881</tokens><words>71518</words><fused>6634</fused></train>
     <dev><sentences>201</sentences><tokens>8539</tokens><words>9435</words><fused>896</fused></dev>
     <test><sentences>401</sentences><tokens>18439</tokens><words>20345</words><fused>1906</fused></test>
   </size>
@@ -15,7 +15,7 @@
   <fusions unique="358" /><!-- do, da, no, à, ao, na, dos, das, nos, pelo, pela, aos, às, deste, nas -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">7450</tag><!-- público, idoso, familiar, social, judicial, doméstico, necessário, jurídico, especial, seguinte -->
+    <tag name="ADJ">7451</tag><!-- público, idoso, familiar, social, judicial, doméstico, necessário, jurídico, especial, seguinte -->
     <tag name="ADP">18686</tag><!-- de, em, a, por, para, com, como, sobre, sem, entre -->
     <tag name="ADV">2139</tag><!-- não, bem, ainda, assim, já, inclusive, somente, independentemente, apenas, mais -->
     <tag name="AUX">1583</tag><!-- ser, ter, estar, haver, ir, vir -->
@@ -26,10 +26,10 @@
     <tag name="NUM">1951</tag><!-- um, 1º, dois, três, 3º, I, II, cinco, III, 2º -->
     <tag name="PRON">2630</tag><!-- que, se, o, ele, qual, lhe, lo, aquele, este, quem -->
     <tag name="PROPN">3550</tag><!-- Lei, Público, Ministério, Federal, Código, Tribunal, Penal, Constituição, Justiça, Brasil -->
-    <tag name="PUNCT">11431</tag><!-- ,, ., -, ;, (, ), ", :, ..., [ -->
+    <tag name="PUNCT">11432</tag><!-- ,, ., -, ;, (, ), ", :, ..., [ -->
     <tag name="SCONJ">956</tag><!-- que, quando, se, pois, como, porque, caso, conforme, porquanto, embora -->
     <tag name="SYM">187</tag><!-- §, %, §§, R$, .com -->
-    <tag name="VERB">7573</tag><!-- poder, ter, dever, prever, haver, dispor, considerar, fazer, tratar, aplicar -->
+    <tag name="VERB">7572</tag><!-- poder, ter, dever, prever, haver, dispor, considerar, fazer, tratar, aplicar -->
     <tag name="X">937</tag><!-- I, II, III, IV, V, vi, VII, corpus, habeas, a) -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -75,11 +75,11 @@
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">518</feat><!-- sendo, havendo, tendo, podendo, tratando, considerando, devendo, visando, ficando, incluindo -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1780</feat><!-- ser, ter, determinar, partir, fazer, manter, adotar, garantir, serem, requerer -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">3383</feat><!-- disposto, sido, previsto, previstas, previstos, prevista, interposto, expressa, feita, provido -->
-    <feat name="Voice" value="Pass" upos="VERB">2270</feat><!-- previsto, previstas, disposto, previstos, prevista, interposto, feita, estabelecidos, observado, realizado -->
+    <feat name="Voice" value="Pass" upos="VERB">2269</feat><!-- previsto, previstas, disposto, previstos, prevista, interposto, feita, estabelecidos, observado, realizado -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
-    <dep name="acl">1968</dep>
+    <dep name="acl">1969</dep>
     <dep name="acl:relcl">977</dep>
     <dep name="advcl">1388</dep>
     <dep name="advmod">1876</dep>
@@ -87,15 +87,15 @@
     <dep name="appos">446</dep>
     <dep name="aux">174</dep>
     <dep name="aux:pass">775</dep>
-    <dep name="case">17666</dep>
+    <dep name="case">17667</dep>
     <dep name="cc">3815</dep>
     <dep name="ccomp">236</dep>
     <dep name="ccomp:speech">9</dep>
     <dep name="conj">5253</dep>
     <dep name="cop">609</dep>
     <dep name="csubj">143</dep>
+    <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">2</dep>
-    <dep name="dep">5</dep>
     <dep name="det">15628</dep>
     <dep name="discourse">727</dep>
     <dep name="dislocated">1</dep>
@@ -108,20 +108,20 @@
     <dep name="iobj">70</dep>
     <dep name="list">9</dep>
     <dep name="mark">1743</dep>
-    <dep name="nmod">11606</dep>
-    <dep name="nmod:spec">167</dep>
-    <dep name="nsubj">2808</dep>
+    <dep name="nmod">11600</dep>
+    <dep name="nmod:spec">172</dep>
+    <dep name="nsubj">2807</dep>
     <dep name="nsubj:outer">2</dep>
     <dep name="nsubj:pass">720</dep>
     <dep name="nummod">386</dep>
-    <dep name="obj">2681</dep>
-    <dep name="obl">5389</dep>
-    <dep name="obl:agent">363</dep>
+    <dep name="obj">2680</dep>
+    <dep name="obl">5396</dep>
+    <dep name="obl:agent">362</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">221</dep>
-    <dep name="punct">11431</dep>
+    <dep name="punct">11432</dep>
     <dep name="root">2005</dep>
     <dep name="vocative">3</dep>
-    <dep name="xcomp">881</dep>
+    <dep name="xcomp">880</dep>
   </deps>
 </treebank>
